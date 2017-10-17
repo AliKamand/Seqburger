@@ -1,0 +1,123 @@
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+  /*background-color: blue;*/
+}
+
+a {
+  color: #00B7FF;
+}
+#mainContainer{
+  border: 1px solid black;
+  position: relative;
+  margin-left: auto;
+  margin-right: auto;
+  width: 768px;
+  height: 1024px;
+  background-color: #62EBEB;
+  padding: 0;
+  border-radius: 20px;
+}
+
+#burgerLogo{
+  position: absolute;
+  width: 400px;
+  height: 295px;
+  border: 1px solid black;
+  background-color: white;
+  top:115px;
+  left:184px;
+  border-radius: 20px;
+  border: 5px solid black;
+}
+
+#burgerPic{
+  height: 100%;
+  width: 100%;
+  border-radius: 20px;
+}
+
+.row{
+  margin: 0;
+}
+
+#rowOne{
+  height: 100%;
+}
+
+#pageLogo{
+  position: absolute;
+  font-size: 64px;
+  font-style: helvetica;
+  top:434px;
+  left: 175px;
+  color: #C82940;
+}
+#burgerForm{
+  border-radius: 20px;
+}
+#burgerFormInput{
+  position: absolute;
+  width: 523px;
+  height: 101px;
+  top:533px;
+  left:70px;
+  border: 5px solid black;
+  text-align: center;
+  border-radius: 20px;;
+}
+
+#enterBurger{
+  position: absolute;
+  height: 101px;
+  color: #B0CF46;
+  background-color: white;
+  width: 111px;
+  left: 610px;
+  top: 533px;
+  border: 5px solid black;
+  border-radius: 20px;
+}
+
+.dDiv{
+  position: absolute;
+  width: 316px;
+  height: 319px;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 20px;
+  overflow: auto;
+  color: #FFFFFF;
+}
+
+.divHeader{
+  text-align: center;
+  border-bottom: 2px solid black;
+  color: #C82940;
+}
+
+#devourDiv{
+  top:659px;
+  left:46.5px;
+  /*color: #FFFFFF;*/
+
+}
+
+#devouredDiv{
+  top: 659px;
+  left: 405.5px;
+}
+
+
+.devourRows{
+  text-align: center;
+  border: 1px solid black;
+  border-radius: 10px;
+}
+
+.devourButton{
+  height: 100%;
+  width: 100%;
+  border-radius: 10px;
+}

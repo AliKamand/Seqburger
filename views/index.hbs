@@ -1,0 +1,45 @@
+<div class="container" id="mainContainer">
+  <!--rowOne-->
+  <div class="row" id="rowOne">
+    <div class="" id="burgerLogo">
+      <img src="./images/pixelatedBurger.jpg" class="img-responsive" id="burgerPic" alt="">
+    </div>
+    <div id="pageLogo">
+      <span>Eat Da Burger</span>
+    </div>
+    <!--create a burger form-->
+    <form class="" id="burgerForm" method="post" action="/inputBurger">
+      <div class="form-group">
+        <input id="burgerFormInput" class="form-control" type="text" name="burgerFormInput" value="" placeholder="Enter the name of a burger">
+        <button id="enterBurger" type="submit" name="enterBurger">Add</button>
+      </div>
+    </form>
+    <!-- <div class="" id="burgerForm" method="post" action="/inputBurger">
+
+    </div> -->
+    <!--devourDiv-->
+    <div class="dDiv" id="devourDiv">
+      <div class="divHeader">
+        <h3>Devour</h3>
+      </div>
+
+        {{#each burgersToDevour}}
+        <div class="devourRows">
+        <button type="button" name="button" class="devourButton btn" id="{{id}}">{{burger_name}}</button>
+        </div>
+        {{/each}}
+
+    </div>
+    <!--devouredDiv-->
+    <div class="dDiv" id="devouredDiv">
+      <div class="divHeader">
+        <h3>Devoured</h3>
+      </div>
+      {{#each burgersDevoured}}
+      <div class="devourRows">
+      <button type="button" name="button" class="devourButton btn" id="{{id}}">{{burger_name}}</button>
+      </div>
+      {{/each}}
+    </div>
+  </div>
+</div>
